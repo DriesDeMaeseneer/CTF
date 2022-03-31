@@ -24,11 +24,14 @@
 
 ###  Functions:
 - simple toggle.
-- double if statements toggle(snake).
+- double if statements toggle(snake)(deterministic).
 - deep if statement toggle(triangle).
 - address calculation functions.
 
 ### State transitions:
+
+#### **TODO: check which states are deterministic.**
+#### **TODO: bundle deterministic states.**
 
 1) S==0:
 	1) set S to 24.
@@ -162,3 +165,4 @@
 59) S==58:
 	1) set S to -1.
 	
+
